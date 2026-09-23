@@ -51,7 +51,7 @@ export default function BackgroundMusic() {
     <>
       <audio
         ref={audioRef}
-        src="/bgm.mp3"
+        src={`${import.meta.env.BASE_URL}bgm.mp3`}
         loop
         preload="auto"
       />
